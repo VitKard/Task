@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите координату x(1): ");
+double x1 = double.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите координату y(1): ");
+double y1 = double.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите координату x(2): ");
+double x2 = double.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите координату y(2): ");
+double y2 = double.Parse(Console.ReadLine()!);
+double s = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+Console.WriteLine($"Расстояние между точками равно {Math.Round(s, 2)}");
